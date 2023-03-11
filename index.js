@@ -14,26 +14,14 @@ const { MessageEmbed } = require("discord.js");
 const express = require("express")
 const app = express()
 
-//////// KEEP_ALIVE ///////////////////
-app.get("/", (req, res) => {
-  res.send("Welcome Back Developer Guardian!")
-})
 
-app.listen(3000, () => {
-  console.log("༺═──────────────────────────────────═༻")
-  console.log(" Aktivasi BOT")
-})
 
 client.on("ready", () => {
   console.log("System is just started!!");
 });
 /////////////////////////////////////////////////////////
 
-client.on("message", message => {
-  if (message.content === ".ping") {
-    return message.channel.send("Pong: there we are 1ms");
-  }
-});
+
 
 ////////////// MAIN INFORMATION LOGS GUARDIANS //////////////////////////
 client.on("channelDelete", function(channel) {
