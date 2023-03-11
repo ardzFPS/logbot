@@ -1,7 +1,7 @@
 {
-  "TOKEN": "OTUzNjY0NDMyODAwNjk0Mjgy.YjH3Nw.GReL6waETi2CPFRvaAn57rvvQec",
-  "SERVER": "796625201336811520",
-  "WELCOME_CHANNEL": "841670244787027979",
-  "MOD_CHANNEL": "841679540799275018",
+  "TOKEN": "",
+  "SERVER": "serverid",
+  "WELCOME_CHANNEL": "karşılama kanal id",
+  "MOD_CHANNEL": "logkanalid",
   "PREFIX": "."
 }
